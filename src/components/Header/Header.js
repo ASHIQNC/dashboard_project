@@ -13,7 +13,7 @@ const Header = () => {
             <div className="navbar__container">
               <div className="navbar__content">
                 <img
-                  src="https://i.postimg.cc/Y2gsJQBq/download-removebg-preview.png"
+                  src="https://i.postimg.cc/3wk5s8vs/0dcfb548989afdf22afff75e2a46a508-1-removebg-preview.png"
                   className="logo__style"
                   alt=""
                 />

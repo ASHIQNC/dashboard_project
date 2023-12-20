@@ -4,6 +4,8 @@
 }
 .home__sidebar {
   width: 15%;
+  display: flex;
+  justify-content: center;
 }
 .home__dashboard {
   width: 90%;

@@ -175,6 +175,11 @@
   .bell__style {
     width: 27px;
   }
+  .plus-section__style {
+    width: 23px;
+    height: 25px;
+    bottom: 42vh;
+  }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1260px) {

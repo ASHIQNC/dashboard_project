@@ -67,6 +67,9 @@
   top: -1px;
   position: absolute;
 }
+.logo__style {
+  width: 37px;
+}
 @media only screen and (max-width: 600px) {
   .triangle__section {
     width: 37%;

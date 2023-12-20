@@ -7,7 +7,7 @@ const SideNavbar = () => {
       <div className="left__section__wrapper">
         <div className="navbar__content__wrapper">
           <img
-            src="https://i.postimg.cc/Y2gsJQBq/download-removebg-preview.png"
+            src="https://i.postimg.cc/3wk5s8vs/0dcfb548989afdf22afff75e2a46a508-1-removebg-preview.png"
             className="logo__style2"
             alt=""
           />
@@ -36,7 +36,7 @@ const SideNavbar = () => {
                   class="fs-5 fa-solid fa-user"
                   style={{ color: "#0f0f0f" }}></i>
 
-                <span class="fs-5  ms-2 support__style">Dashboard</span>
+                <span class="ms-2 support__style">Dashboard</span>
               </a>
             </li>
 
@@ -46,9 +46,9 @@ const SideNavbar = () => {
                 class="nav-link text-dark mt-3 list__content__subsection"
                 role="button">
                 <i
-                  class="fs-5 fa-solid fa-sack-dollar"
+                  class=" fa-solid fa-sack-dollar"
                   style={{ color: "#0f0f0f" }}></i>
-                <span class="fs-5 ms-2 support__style">Perks</span>
+                <span class=" ms-2 support__style">Perks</span>
               </a>
             </li>
 
@@ -57,9 +57,9 @@ const SideNavbar = () => {
                 style={{ border: "1px solid lightgray", borderRadius: "10px" }}
                 class="nav-link text-dark mt-3 list__content__subsection">
                 <i
-                  class="fs-5 fa-solid fa-dollar-sign"
+                  class=" fa-solid fa-dollar-sign"
                   style={{ color: "#0f0f0f" }}></i>
-                <span class="fs-5 ms-2 support__style">Addons</span>
+                <span class=" ms-2 support__style">Addons</span>
               </a>
             </li>
 
@@ -68,9 +68,9 @@ const SideNavbar = () => {
                 style={{ border: "1px solid lightgray", borderRadius: "10px" }}
                 class="nav-link text-dark mt-3 list__content__subsection ">
                 <i
-                  class="fs-5 fa-solid fa-table-list"
+                  class=" fa-solid fa-table-list"
                   style={{ color: "#0f0f0f" }}></i>
-                <span class="fs-5  ms-2 support__style">FAQ</span>
+                <span class=" ms-2 support__style">FAQ</span>
               </a>
             </li>
 
@@ -79,15 +79,17 @@ const SideNavbar = () => {
                 style={{ border: "1px solid lightgray", borderRadius: "10px" }}
                 href="#"
                 class="nav-link text-dark mt-3 list__content__subsection">
-                <i
-                  class="fs-5 fa-solid fa-user"
-                  style={{ color: "#0f0f0f" }}></i>
+                <i class=" fa-solid fa-user" style={{ color: "#0f0f0f" }}></i>
 
-                <span class="fs-5  ms-2 support__style">Support</span>
+                <span class=" ms-2 support__style">Support</span>
               </a>
             </li>
           </ul>
         </div>
+      </div>
+      <div className="logout__style__wrapper">
+        <span className="logout">Logout</span>
+        <i class="fa-solid fa-power-off fa-sm logout__logo__style "></i>
       </div>
     </div>
   );
